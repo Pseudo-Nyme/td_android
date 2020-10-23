@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TD Android Lysensoone</string>
+
+    <string-array name="name">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+    </string-array>
+
+    <string-array name="verNum">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>
