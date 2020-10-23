@@ -5,21 +5,34 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/andVersionImg"
-        android:layout_width="150px"
-        android:layout_height="150px" />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
 
-    <TextView
-        android:id="@+id/andVersionName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/andVersionImg"
+            android:layout_width="150px"
+            android:layout_height="150px"
+            android:layout_column="0"/>
 
-    <TextView
-        android:id="@+id/andVersionNum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    
+        <TextView
+            android:id="@+id/andVersionName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_column="1"
+            android:layout_marginTop="-50px"/>
+
+        <TextView
+            android:id="@+id/andVersionNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_column="1"
+            android:layout_marginTop="-60px"/>
+    </GridLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"

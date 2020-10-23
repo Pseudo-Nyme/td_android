@@ -8,6 +8,4 @@ import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_and_version.view.*
 
-data class AndVersion(var name: String="Default", var verNum: String="1.0", var img:Int = R.drawable.android) {
-
-}
+data class AndVersion(var name: String="Default", var verNum: String="1.0", var img:Int = R.drawable.android) {}
